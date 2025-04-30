@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tugas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ario</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="display-4">Selamat Datang di Portofolio Saya</h1>
+      <p class="lead">Menampilkan saya di bidang pengembangan dan desain web.</p>
+      <a href="#proyek" class="btn btn-primary btn-lg mt-3">Lihat Proyek</a>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Tentang Saya</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="Present Acheron.png" alt="Foto Profil" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-8">
+          <p>Halo Saya Ario, seorang anak magang jurusan RPL yang sekarang sedang menjalani PKL saya di karisma academy, saya juga adalah murid dari SMK PGRI 3 Malang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="proyek" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Proyek Saya</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nama Proyek</th>
+            <th>Teknologi</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Website Portofolio</td>
+            <td>HTML, CSS, Bootstrap</td>
+            <td><a href="#" class="btn btn-sm btn-outline-primary">Kunjungi</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Profil Perusahaan</td>
+            <td>Bootstrap, JavaScript</td>
+            <td><a href="#" class="btn btn-sm btn-outline-primary">Kunjungi</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Hubungi Saya</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Alamat Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+        </div>
+        <div class="mb-3">
+          <label for="pesan" class="form-label">Pesan</label>
+          <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Saya. Seluruh hak cipta dilindungi.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
